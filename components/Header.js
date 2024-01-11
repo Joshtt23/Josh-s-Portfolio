@@ -10,7 +10,7 @@ function Header() {
       <div className="mt-3 mr-3 text-md font-medium">
         <Link href="/resume" className="mx-2">Resume</Link>
         <Link href="/projects" className="mx-2">Projects</Link>
-        <Link href="/contact" className="mx-2">Contact</Link>
+        {/* <Link href="/contact" className="mx-2">Contact</Link> */}
         <Link href="/about" className="mx-2">About</Link>
       </div>
     </nav>

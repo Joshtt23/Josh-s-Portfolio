@@ -4,3 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  background-color: black;
+  overflow-y: hidden;
+}

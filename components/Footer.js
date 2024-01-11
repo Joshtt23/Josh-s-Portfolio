@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className='flex flex-row justify-between my-3'>
       <div className='ml-3'>
-      Developed and Designed by me 🙂 &copy; 2023
+      Developed and Designed by Joshua Traver &copy; 2023
       </div>
       <div className='flex flex-row mr-1'>
       <a href="https://twitter.com/_Joshua_Traver_"><FaTwitterSquare size={40} className='mx-2'/></a>

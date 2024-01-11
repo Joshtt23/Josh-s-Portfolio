@@ -1,23 +1,32 @@
+/* eslint-disable react/no-unescaped-entities */
 function About() {
   return (
-    <div className="flex h-[calc(100vh-200px)] justify-center items-center m-10">
-      <p className="text-center m-auto p-28 rounded-xl font-serif text-lg bg-myGrey">
-        My name is Joshua Traver, I am a 24 year old software developer.
-        Recently graduated from Eastern Florida State College with a Associate
-        of Arts and Associate of Science with a focus in Computer Science. Since
-        a young age I have been attracted to software development, starting off
-        creating command line games, basic HTMl/CSS, and modding video games
-        saves.A few years later in life my cousin John Traver started teaching
-        himself coding and founded companies Katadata and then Frame.io and this
-        resulted in showing me more passion for the craft, I then chose to move
-        on to learning more advanced languages such as C#, C++, and Java.
-        Realizing quickly I enjoy building things with rapid development. I
-        quickly moved to more fast paced languages such as Python, React, Node,
-        and Next for the ability to cover full frontend and backend production.
-        Lately, it has been my passion to merge the world into a new age of web3
-        incorporating blockchain into my skill set. One day hoping that we will
-        be fully integrated with decentralization across the World Wide Web.
-      </p>
+    <div className="flex flex-col items-center justify-center mt-10">
+      <h1 className="text-4xl font-bold mb-6">About Me</h1>
+      <div className="bg-gray-100 rounded-lg p-8 max-w-screen-md shadow-lg">
+        <p className="text-lg text-gray-700 leading-relaxed">
+          My name is Joshua Traver, and I'm a 25-year-old software developer. I
+          recently graduated from Eastern Florida State College with an
+          Associate of Arts and Associate of Science in Computer Science.
+        </p>
+        <p className="text-lg text-gray-700 leading-relaxed mt-4">
+          From a young age, I've been drawn to software development, starting
+          with creating command-line games and basic HTML/CSS. Over the years,
+          I've expanded my skills to include languages like C#, C++, and Java.
+        </p>
+        <p className="text-lg text-gray-700 leading-relaxed mt-4">
+          Inspired by my cousin John Traver, who founded companies Katadata and
+          Frame.io, I developed a strong passion for coding. I transitioned to
+          more rapid development languages like Python, React, Node, and Next.js
+          to cover both frontend and backend production efficiently.
+        </p>
+        <p className="text-lg text-gray-700 leading-relaxed mt-4">
+          Currently, I'm passionate about merging the world into a new age of
+          web3 and incorporating blockchain into my skill set. My vision is to
+          contribute to the decentralization of the World Wide Web, paving the
+          way for a more decentralized future.
+        </p>
+      </div>
     </div>
   );
 }
