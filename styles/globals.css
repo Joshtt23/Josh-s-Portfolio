@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+/* Global Styles */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html {
-  background-color: black;
-  overflow-y: hidden;
+html,
+body {
+  height: 100%;
+  background: linear-gradient(to right, #8860d0, #84ceeb);
+}
+
+.spec-font {
+  font-family: "Lobster", cursive;
 }
