@@ -175,7 +175,7 @@ function FlappyBird() {
 
   return (
     <div className="flappy-bird mx-auto">
-      <h1 className="text-center text-2xl font-bold mb-4">Flappy Bird</h1>
+      <h1 className="text-center text-2xl font-bold mb-4">Flying Block</h1>
       <p className="text-center text-xl font-semibold">Score: {score}</p>
       <canvas
         ref={canvasRef}
