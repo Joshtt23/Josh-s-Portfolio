@@ -30,10 +30,6 @@ function FinanceTrackerLayout() {
         <h1 className="text-2xl font-semibold">FinanTrack</h1>
       </header>
       <main className="w-11/12 max-w-4xl mt-6 p-4 bg-white rounded-lg shadow-lg">
-        {/* Calendar Section */}
-        <section className="mb-8">
-          <Calendar financeData={financeData} />
-        </section>
         <div className="flex flex-wrap mx-auto">
           {/* Remove Entry Section */}
           <section className="mb-8 flex-grow-1 mx-auto w-1/2">
@@ -49,6 +45,10 @@ function FinanceTrackerLayout() {
             </div>
           </section>
         </div>
+        {/* Calendar Section */}
+        <section className="mb-8">
+          <Calendar financeData={financeData} />
+        </section>
 
         <section className="mb-8">
           <FinancialDetails financeData={financeData} />
